@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PartsCustomizer from './PartsCustomizer/PartsCustomizer'
-import Cart from './Cart/Cart'
+import PartsCustomizer from './PartsCustomizer'
+import Cart from './Cart'
 import './App.css';
 
 // This object will allow us to

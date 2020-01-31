@@ -1,6 +1,6 @@
     import React from 'react';
-    import Part from '../Part/Part'
-    import '../App.css';
+    import Part from './Part'
+    import './App.css';
 
     class PartsList extends React.Component {
 
