@@ -5,7 +5,7 @@
     class PartsList extends React.Component {
 
     render () {
-      return (
+       return (
         Object.keys(this.props.features).map((feature, idx) => {
         const featureHash = feature + '-' + idx;
         return (
@@ -24,8 +24,8 @@
             </fieldset>
           );
         })
-        
-      )}
+       )
+  }
 }
 
 export default PartsList

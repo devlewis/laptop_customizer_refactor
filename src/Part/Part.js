@@ -21,9 +21,7 @@ class Part extends React.Component {
       
             <label htmlFor={itemHash} className="feature__label">
               {item.name} ({this.props.USCurrencyFormat.format(item.cost)})
-              
-        </label>
-        
+            </label>
           </div>
           
         );
